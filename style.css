@@ -17,7 +17,19 @@ body {
     font-weight: bold;
 }
 
+p {
+    font-size: 14px;
+}
 
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black{
+    color: #000 !important;
+}
 /************
 
 ABOUT
@@ -63,4 +75,33 @@ ABOUT
 
 #about .icons a{
     color: #000;
+}
+
+/*****************
+
+PROJECT
+
+******************/
+
+#project {
+    margin: 60px auto;
+
+}
+
+#project h2 {
+    text-align: center;
+}
+
+#project .card img {
+    width: 100%;
+    margin-bottom: 100%;
+}
+
+#project .img img/project-netflix.png {
+    width:10%;
+}
+
+#project .href {
+    margin-top: 20px;
+    
 }
